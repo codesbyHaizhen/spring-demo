@@ -26,4 +26,14 @@ public class TrackCoach implements Coach {
 		return "run a hard 5k";
 	}
 	
+	//add an init method
+	public void doMyStartupStuff() {
+		System.out.println("TrackCoach: inside method doMyStartupStuff");
+	}
+	
+	//add an destory method
+	public void doMyCleanupStuff() {
+		System.out.println("TrackCoach: inside method doMyCleanupStuff");
+	}
+	
 }
